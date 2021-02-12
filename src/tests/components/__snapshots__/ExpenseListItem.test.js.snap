@@ -8,7 +8,7 @@ exports[`should render ExpenseListItem 1`] = `
     Gum
   </[object Object]>
   <p>
-    $19.50
+    CHF19.50
     -
     01-01-1970
   </p>

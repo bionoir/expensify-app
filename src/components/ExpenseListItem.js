@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import moment from 'moment';
 import numeral from 'numeral';
+import 'numeral/locales/fr-ch';
+
+numeral.locale('fr-ch');
 
 const ExpenseListItem = ( { id, description, amount, createdAt }) => (
     <div>
