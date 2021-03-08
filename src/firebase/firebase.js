@@ -68,3 +68,33 @@ export { firebase, database as default };
 // }).catch((e) => {
 //     console.log('REJECTED ! ', e);
 // });
+
+
+// database.ref('expenses')
+//     .once('value')
+//     .then((snapshot) => {
+//         const expenses = [];
+
+//         snapshot.foreach((childsnapshot) => {
+//             expenses.push({
+//                 id: childsnapshot.key,
+//                 ...childsnapshot.val()
+//             });
+//         });
+
+//         console.log(expenses);
+//     });
+
+// database.ref('expenses')
+//     .on('value', (snapshot) => {
+//         const expenses = [];
+
+//         snapshot.foreach((childsnapshot) => {
+//             expenses.push({
+//                 id: childsnapshot.key,
+//                 ...childsnapshot.val()
+//             });
+//         });
+        
+//         console.log(expenses);
+//     });
